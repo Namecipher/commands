@@ -2,10 +2,13 @@
 read name
 
 if [ -d $name ]
+
 then
+
 echo "This is a directory"
 
 elif [ -f $name ]
+then
 echo "This is a file"
 
 else
