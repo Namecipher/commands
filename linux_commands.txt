@@ -35,10 +35,10 @@ Command       Syntax                   Usage
 
 14) cat       cat file_name            Show the content of the specified file on the console.
 	      
-	      cat > file_name          It will replace the old contents of the file with "Hello World"
+15)cat        cat > file_name          It will open the file in writing mode and it will overwrite the existing contents of the file with "Hello World"
 	      Hello World
 	      
-              cat >> file_name         It will append "Hello World" to the old content of the file.
+16) cat       cat >> file_name         It will append "Hello World" to the existing old content of the file.
 	      Hello World
 File editors
 
