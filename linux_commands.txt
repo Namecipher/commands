@@ -1,25 +1,38 @@
-Basic Linux Commands
-
 Linux is an operating system
 
 Terminal - Command Prompt
 
-1) pwd - print working directory
+Basic Linux Commands
 
-2) whoami - will print the current logged in user's username
+Command       Syntax                   Usage
 
-3) cd - cd.. cd. cd dir - change directory
+1) pwd        pwd                      print working directory
 
-4) ls - list all the files and directories; windows - dir
+2) whoami     whoami                   Print the current logged in user's username
 
-5) mkdir - make directory 
+3) mkdir      mkdir dir_name           create a directory with the name 'dir_name'
 
-6) touch - create a new file
+4)cd          cd path_to_directory     change the current working directory.
 
-7) cp - 
+5)cd..        cd..                     change to the parent directory of the working directory.
 
-8) mv -
+6) cd.        cd.                      represent to the current directory.
 
-9) rmdir - remove directory
+7) ls         ls                       list the files and directories inside the current working directory; windows - dir
 
-10) rm - remove
+8) rmdir      rmdir directory_name     remove only the empty directory.   
+
+9) touch      touch file_name          create a new file with the name specified.
+
+10) cp        cp path/file1 path2      copy the file from path1 to path2.
+
+11) mv        mv path/file1 path2      Move file1 from path1 to path2.
+	                               Also renames a file.
+
+12) rm        rm file_name             remove the file specified.
+
+13) rm -R     rm -R                    Remove the specified directory.
+
+14) cat       cat file_name            Show the content of the specified file on the console.
+
+ 
