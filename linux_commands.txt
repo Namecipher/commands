@@ -35,4 +35,14 @@ Command       Syntax                   Usage
 
 14) cat       cat file_name            Show the content of the specified file on the console.
 
- 
+File editors
+
+15) nano      nano file_name           This opens the file for writing.
+				       ctrl + o - save the file and prompt for the file name.
+				       ctrl + x - exit the nano editor.
+
+16) vi        vi file_name             This opens the file for writing.
+				       press i for insert mode.
+				       write the contents.
+				       press esc to come out of insert mode.
+				       press :wq to save and quit. 
