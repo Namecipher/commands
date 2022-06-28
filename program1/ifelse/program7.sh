@@ -1,13 +1,13 @@
-#greater, equal and lesser than
+#to print the greater of the two numbers
 
 echo "Enter 1st number"
-read a
+read num1
 echo "Enter 2nd number"
-read b
+read num2
 
-if [ $a -gt $b ]
+if [ $num1 -gt $num2 ]
 then
-echo " $a is greater "
+echo " $num1 is greater "
 else
-echo " $b is greater "
+echo " $num2 is greater "
 fi
