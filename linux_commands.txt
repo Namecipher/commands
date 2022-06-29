@@ -1,0 +1,53 @@
+Linux is an operating system
+
+Terminal - Command Prompt
+
+Basic Linux Commands
+
+Command       Syntax                   Usage
+
+1) pwd        pwd                      print working directory
+
+2) whoami     whoami                   Print the current logged in user's username
+
+3) mkdir      mkdir dir_name           create a directory with the name 'dir_name'
+
+4)cd          cd path_to_directory     change the current working directory.
+
+5)cd..        cd..                     change to the parent directory of the working directory.
+
+6) cd.        cd.                      represent to the current directory.
+
+7) ls         ls                       list the files and directories inside the current working directory; windows - dir
+
+8) rmdir      rmdir directory_name     remove only the empty directory.   
+
+9) touch      touch file_name          create a new file with the name specified.
+
+10) cp        cp path/file1 path2      copy the file from path1 to path2.
+
+11) mv        mv path/file1 path2      Move file1 from path1 to path2.
+	                               Also renames a file.
+
+12) rm        rm file_name             remove the file specified.
+
+13) rm -R     rm -R                    Remove the specified directory.
+
+14) cat       cat file_name            Show the content of the specified file on the console.
+	      
+15)cat        cat > file_name          It will open the file in writing mode and it will overwrite the existing contents of the file with "Hello World"
+	      Hello World
+	      
+16) cat       cat >> file_name         It will append "Hello World" to the existing old content of the file.
+	      Hello World
+File editors
+
+15) nano      nano file_name           This opens the file for writing.
+				       ctrl + o - save the file and prompt for the file name.
+				       ctrl + x - exit the nano editor.
+
+16) vi        vi file_name             This opens the file for writing.
+				       press i for insert mode.
+				       write the contents.
+				       press esc to come out of insert mode.
+				       press :wq to save and quit. 
