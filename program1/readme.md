@@ -11,6 +11,16 @@ A scripting language is used to write scripts. These contain a series of command
 What is a bash?
 
 
+Bash Arithmetic Operators:
+
+-eq equal to
+-gt greater than
+-lt less than
+-ge greater than equal to
+-le less than equal to
+-ne not equal to
+
+These operators work only on integers
 
 
 
