@@ -43,5 +43,9 @@ echo "Quotient is $quotient"
 echo "Remainder is $remainder"
 ;;
 
+
+*)
+echo "Invalid Choice"
+
 esac
 
