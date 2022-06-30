@@ -1,22 +1,11 @@
-#a="abc"
-#b="def"
+a="abc"
+b="def"
 
-#if [ $a = $b ]
-#then
-#echo "a is equal to b" 
-#else
-#echo "a is not equal to b"
-#fi
-
-
-a=9
-b=9
-
-if [ $a -ne $b ]
+if [ $a = $b ]
 then
-echo "not equal"
+echo "a is equal to b" 
 else
-echo "equal"
+echo "a is not equal to b"
 fi
 
 
